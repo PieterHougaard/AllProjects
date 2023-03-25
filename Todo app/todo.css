@@ -1,0 +1,127 @@
+body {
+    background-color: #F7F3E9;
+    font-family: 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #EEEEDF;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .task-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #C6C6B8;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #BCB69E;
+    color: #F7F3E9;
+  }
+  
+  .task-header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .task-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .task-input {
+    flex: 1;
+    border: none;
+    border-bottom: 2px solid #C6C6B8;
+    font-size: 16px;
+    padding: 10px 0;
+    margin-right: 20px;
+    background-color: transparent;
+    color: #BCB69E;
+  }
+  
+  .task-input:focus {
+    outline: none;
+    border-color: #8E8D84;
+  }
+  
+  .task-submit {
+    background-color: #BCB69E;
+    color: #F7F3E9;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .task-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #C6C6B8;
+    background-color: #EEEEDF;
+    color: #BCB69E;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  
+  .task-item label {
+    font-size: 16px;
+    margin: 0;
+    text-align: center;
+    flex: 1;
+  }
+  
+  .task-checkbox {
+    margin-right: 20px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 2px solid #BCB69E;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #EEEEDF;
+  }
+  
+  .task-checkbox:checked {
+    background-color: #BCB69E;
+    border-color: #BCB69E;
+  }
+  
+  .task-checkbox:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #BCB69E33;
+  }
+  
+  .delete {
+    background-color: transparent;
+    border: none;
+    color: #FF3B30;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 0;
+  }
+  

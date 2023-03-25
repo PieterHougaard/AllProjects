@@ -1,0 +1,44 @@
+table{
+    border: 0.1em solid black;
+    border-collapse:collapse;
+    width: 95%;
+    margin-left: 2.5%;
+    background-color: black;
+}
+
+
+table caption input{
+    text-align: center; /*this puts zero on the right*/
+    font-size: 1.5em;
+    border: 0.1em solid black ;
+    padding: 0.5em;
+    width: 95%;
+    font-weight: bold;
+    background-color: rgb(83, 119, 153)
+}
+td {
+    border: 0.1em solid black ;
+    padding: 0.5em;
+    text-align: center;
+
+}
+
+
+input{
+    width: 95%;
+    height: 2em;
+    font-size: 2em;
+
+}
+
+.operator {
+    color: rgb(255, 255, 255);
+    background-color: rgb(21, 112, 5);
+    border-radius: 50%;
+}
+
+.input{
+    color: rgb(0, 0, 0);
+    background-color: rgb(187, 88, 88);
+    border-radius: 50%;
+}
